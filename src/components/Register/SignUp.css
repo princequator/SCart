@@ -1,0 +1,11 @@
+#signupform input {
+    border-radius: 5px;
+    border-color: red;
+    border-left-width:thick;
+} 
+
+#signupformSuccess input {
+    border-radius: 5px;
+    border-color: green;
+    border-left-width:thick;
+} 
