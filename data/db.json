@@ -1,0 +1,125 @@
+{
+  "coaches": [
+    {
+      "name": "Rose",
+      "password": "rose123",
+      "dob": "1996-02-03",
+      "gender": "female",
+      "mobileNumber": "8218302304",
+      "speciality": "Confidence Issues",
+      "id": 1
+    },
+    {
+      "name": "Shetty",
+      "password": "shetty123",
+      "dob": "2000-12-04",
+      "gender": "male",
+      "mobileNumber": "9811990786",
+      "speciality": "Specialized in xyz",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "name": "Prince",
+      "password": "sharma12",
+      "mobileNumber": "9811990879",
+      "email": "prince@xyz.com",
+      "dob": "1997-05-02",
+      "pincode": "201309",
+      "city": "Mayur Vihar ext",
+      "state": "Delhi NCR",
+      "country": "Indiaaaa",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "name": "Shino",
+      "password": "yamnaka12",
+      "mobileNumber": "6218904980",
+      "email": "insects@xyz.com",
+      "dob": "1997-02-03",
+      "pincode": "201014",
+      "city": "Konoho",
+      "state": "Hidden Leaf",
+      "country": "Land of Fire",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "username": "Prince",
+      "password": "Prince@12",
+      "phoneNumber": 9718022345,
+      "emailId": "prince@abc.com",
+      "userType": "buyer",
+      "id": 3
+    }
+  ],
+  "bookings": [
+    {
+      "appointmentdate": "2021-07-31",
+      "slot": "9 AM to 10 AM",
+      "userId": "2",
+      "coachId": "1",
+      "id": 2
+    },
+    {
+      "appointmentdate": "2021-07-29",
+      "slot": "03 PM to 04 PM",
+      "userId": "2",
+      "coachId": "2",
+      "id": 3
+    },
+    {
+      "appointmentdate": "2021-07-30",
+      "slot": "10 AM to 11 AM",
+      "userId": "2",
+      "coachId": "2",
+      "id": 4
+    },
+    {
+      "appointmentdate": "2021-07-31",
+      "slot": "9 AM to 10 AM",
+      "userId": "1",
+      "coachId": "1",
+      "id": 5
+    },
+    {
+      "appointmentdate": "2021-07-29",
+      "slot": "02 PM to 03 PM",
+      "userId": "1",
+      "coachId": "2",
+      "id": 6
+    }
+  ],
+  "myorders": [
+    {
+      "orderid": "orderid_1",
+      "orderDate": "2017-05-21",
+      "orderStatus": "open",
+      "cardType": "credit",
+      "product": "Dell XPS"
+    },
+    {
+      "orderid": "orderid_2",
+      "orderDate": "2017-06-23",
+      "orderStatus": "cancelled",
+      "cardType": "credit",
+      "product": "notebook"
+    },
+    {
+      "orderid": "orderid_3",
+      "orderDate": "2017-06-13",
+      "orderStatus": "closed",
+      "cardType": "debit",
+      "product": "clothes"
+    },
+    {
+      "orderid": "orderid_4",
+      "orderDate": "2017-09-13",
+      "orderStatus": "returned",
+      "cardType": "debit",
+      "product": "phone"
+    }
+  ]
+}
